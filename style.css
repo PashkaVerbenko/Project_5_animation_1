@@ -1,0 +1,35 @@
+.square {
+    height: 300px;
+    width: 300px;
+    background-color: orange;
+    position: relative;
+    top: 0;
+    left: 350px;
+    animation: anim 10s ease-in-out infinite;
+}
+
+@keyframes anim{
+    0%{
+        top: 0;
+        left: 350px;
+        background-color: orange;
+    }
+    25%{
+        top: 350px;
+        left: 350px;
+        background-color: green;
+        border-radius: 30%;
+    }
+    50%{
+        top: 350px;
+        left: 0;
+        background-color: red;
+        border-radius: 50%;
+    }
+    75%{
+        top: 0;
+        left: 0;
+        background-color: rebeccapurple;
+        border-radius: 30;
+    }
+}
